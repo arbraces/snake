@@ -1,0 +1,33 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	user-select: none;
+}
+@font-face {
+	font-family: "gameFont";
+	src: url(../assets/font/Candcu__.ttf);	
+}
+main{
+	position: absolute;
+	display: grid;
+	place-items: center;
+	top: 0;
+	width: 100vw;
+	height: 100vh;
+	background-image: linear-gradient(120deg, #12c2e9, #c471ed);
+}
+/* 游戏界面 */
+#content{
+	position: relative;
+	width: 500px;
+	height: 500px;
+}
+canvas{
+	background-color: rgba(0, 0, 0, .3);
+	position: relative;
+}
+#tips{
+	position: absolute;
+	font-size: 14px;
+	color: rgba(0, 0, 0, .3);
+}
