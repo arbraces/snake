@@ -126,7 +126,7 @@ class Snake{
 		let isRepeat = false
 		//判断随机的结果是否是蛇的位置，如果是蛇的位置就在随机一遍
 		this.location.forEach((item, index)=>{
-			if(item.x == x || item.y == y){
+			if(item.x == x && item.y == y){
 				isRepeat = true
 			}
 		})
